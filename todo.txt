@@ -65,3 +65,7 @@ If no Slot of student matches slot of alumni: 5
 
 *5. To avoid unequal, extra empty columns are ranked which will finally mean that not assigned. 
 * can be improved
+
+Source: 1. http://cramton.umd.edu/econ415/deferred-acceptance-algorithm.pdf
+2. http://www.cse.unsw.edu.au/~tw/prvwcomsoc10.pdf
+3. http://www.aicit.org/AISS/ppl/AISS3517PPL.pdf
