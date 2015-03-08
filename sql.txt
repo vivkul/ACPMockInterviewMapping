@@ -11,6 +11,12 @@ CREATE TABLE Persons
 
 )
 
+To avoid same student fill the form twice but instead update it and to update AlumniAdded:
 INSERT INTO table (id, name, age) VALUES(1, "A", 19) ON DUPLICATE KEY UPDATE    
 name=VALUES(name), age=VALUES(age)
+
+To avoid same student getting more than one interview:
+SELECT * 
+FROM films 
+WHERE title NOT IN (SELECT collection FROM films where collection is not null);
 
