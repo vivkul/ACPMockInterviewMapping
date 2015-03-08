@@ -1,0 +1,16 @@
+CREATE TABLE Persons
+(
+	role_id INT AUTO_INCREMENT,
+	LastName varchar(255) NOT NULL,
+	username varchar(255),
+	FirstName varchar(255),
+	Address varchar(255),
+	City varchar(255),
+	UNIQUE (username),
+   	PRIMARY KEY(role_id)
+
+)
+
+INSERT INTO table (id, name, age) VALUES(1, "A", 19) ON DUPLICATE KEY UPDATE    
+name=VALUES(name), age=VALUES(age)
+
