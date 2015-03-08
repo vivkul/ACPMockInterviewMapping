@@ -21,5 +21,17 @@ INSERT INTO table (id, name, age) VALUES(1, "A", 19) ON DUPLICATE KEY UPDATE
 name=VALUES(name), age=VALUES(age)
 
 
-On matching, move the seleceted students to studentsAdded
 
+On matching, move the selected students to studentsAdded
+
+All fields in the form are required
+
+Mail the students that they have been shortlisted so that they are ready for interview even if they don't know the interviewer// TODO??
+
+Mail all the students at a particular time as decided beforehand
+
+Secure the webserver, don't allow bad values through the form(sql-injection) or form-bypassing.
+
+Automate the entire process
+
+Optimise the algorithm.
