@@ -29,3 +29,39 @@ Ratnesh wants to automatically transfer the alumni information to some safe loca
 2.3 Management Consulting
 
 3. Miscellaneous (To be assigned manually eg for lawyer, Politicians)
+
+Algo:
+
+1. If alumni fills more than 1 slot or more than 1 form, add a row for each where in case of more than 1 slot, keeping the preferences for all the slots in a form same.
+2. When an alumni and a student are matched, the student will be given the slot mentioned by the alumni and if the preference given is the one matched, else preferences of the alumni is given to the student and alumni is sent the preference of the student along with his own preferences for the alumni to choose. //TODO
+3. For each student, there will be only one row with his email-id as key.
+4. Ranking given by student to alumni:
+*a. Students give score to each of the alumni. Then the score is converted to ranks with alumni having equal scores arbitrarily ordered into distinct ranks. If score(a)>score(b), than rank(a)<rank(b).
+*b. Scores:
+If Preference 1 of alumni is same as Preference 1 of student, slot1 of student matches slot of alumni: 100
+If Preference 1 of alumni is same as Preference 2 of student, slot1 of student matches slot of alumni: 80
+If Preference 1 of alumni is same as Preference 3 of student, slot1 of student matches slot of alumni: 60
+If Preference 2 of alumni is same as Preference 1 of student,, slot1 of student matches slot of alumni: 90
+If Preference 2 of alumni is same as Preference 2 of student, slot1 of student matches slot of alumni: 70
+If Preference 2 of alumni is same as Preference 3 of student, slot1 of student matches slot of alumni: 50
+If slot1 of student matches the slot of alumni: 10 
+
+In all of above, if Slot2 of student matches slot of alumni, decrease the score by 1
+In all of above, if no Slot of student matches slot of alumni, decrease the score by 5
+(assuming that student will change his schedule to adjust the interview)
+
+4. Ranking given by alumni to student:
+*a. Alumni give score to each of the student. Then the score is converted to ranks with student having equal scores arbitrarily ordered into distinct ranks. If score(a)>score(b), than rank(a)<rank(b).
+*b. Scores: (doesn't consider student's slot as he knows that if matched, student will be assigned alumni's slot)
+If Preference 1 of student is same as Preference 1 of alumni: 100
+If Preference 1 of student is same as Preference 2 of alumni: 70
+If Preference 2 of student is same as Preference 1 of alumni: 90
+If Preference 2 of student is same as Preference 2 of alumni: 60
+If Preference 3 of student is same as Preference 1 of alumni: 80
+If Preference 3 of student is same as Preference 2 of alumni: 50
+If Slot1 of student matches the slot of alumni: 10 
+If Slot2 of student matches the slot of alumni: 9
+If no Slot of student matches slot of alumni: 5
+
+*5. To avoid unequal, extra empty columns are ranked which will finally mean that not assigned. 
+* can be improved

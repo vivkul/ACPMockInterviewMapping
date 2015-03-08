@@ -1,0 +1,72 @@
+body {
+        padding-top: 20px;
+        background-color: #f5f5f5;
+}
+header nav.navbar {
+	margin-bottom: 10px;
+}
+.navbar span.icon-bar {
+	background-color: #428bca;
+}
+.navbar a.navbar-brand {
+	font-size: 2em;
+}
+.navbar a.navbar-brand:hover {
+	color: #3399cc;
+}
+.navbar a.navbar-brand span.small, .navbar a.navbar-brand:hover span.small {
+	color: #333333;
+	font-size: 0.7em;
+	padding-left: 5px;
+}
+.navbar a.navbar-brand span.small:before, .navbar a.navbar-brand:hover span.small:before {
+	content: "/\00a0";
+	color: #999999;
+	padding: 0 5px;
+}
+.navbar div.navbar-collapse {
+	border-width: 2px;
+	border-color: #cccccc;
+	border-radius: 2px;
+}
+.navbar li.dropdown {
+	position: relative;
+	top: 5px;
+	font-size: 1.2em;
+}
+h1,h2,.navbar a.navbar-brand {
+    font-family: Candara, Calibri, Segoe, “Segoe UI”, Optima, Arial, sans-serif;
+}
+#content {
+    padding: 5px 15px;
+}
+hr {
+    height: 2px;
+    border-radius: 2px;
+    background-color: #cccccc;
+}
+hr.closetop {
+    margin-top: 0;
+}
+hr.closeboth {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+form fieldset {
+    padding: 10px 25px 25px 25px;
+    border: 1px solid #cccccc;
+    border-radius: 10px;
+    background-color: #e0e0e0;
+}
+form fieldset h2 span,p span.link {
+    background-color: #e0e0e0;
+    color: #038cd0;
+}
+div.extra-margin-vertical {
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+span.error {/*
+    background-color: #d2322d;
+    color: #bbbbbb;*/
+}
