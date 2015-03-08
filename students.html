@@ -25,22 +25,22 @@
 	        <h2>ACP Mock Interview</h2>
 	        <p class="lead">If you fill this form more than once, your latest filling will be taken into account.</p>
       	</div>
-    	<form>
+    	<form action="updateStudents.php" method="post">
 		  <div class="form-group">
 		    <label for="studentName">Name</label>
-		    <input type="name" class="form-control" id="studentName" placeholder="Full Name">
+		    <input type="name" class="form-control" id="studentName" placeholder="Full Name" name="name">
 		  </div>
 		  <div class="form-group">
 		    <label for="rollNo">Roll Number</label>
-		    <input type="number" class="form-control" id="rollNo" placeholder="Roll Number">
+		    <input type="number" class="form-control" id="rollNo" placeholder="Roll Number" name="rollno">
 		  </div>
 		  <div class="form-group">
 		    <label for="userName">User Name</label>
-		    <input type="name" class="form-control" id="userName" placeholder="Enter 'user' without quotes if IITK email-ID is user@iitk.ac.in">
+		    <input type="name" class="form-control" id="userName" placeholder="Enter 'user' without quotes if IITK email-ID is user@iitk.ac.in" name="username">
 		  </div>
 		  <div class="form-group">
 		    <label for="phoneNo">Phone Number</label>
-		    <input type="number" class="form-control" id="phoneNo" placeholder="Phone Number">
+		    <input type="number" class="form-control" id="phoneNo" placeholder="Phone Number" name="phoneno">
 		  </div>   
 		  
 		  <label>Interview Type Preference I</label>
@@ -155,17 +155,17 @@
 
 		  <div class="form-group">
 		    <label for="studentDept">Department</label>
-		    <input type="name" class="form-control" id="studentDept" placeholder="Ex. CE, BSBE, CSE">
+		    <input type="name" class="form-control" id="studentDept" placeholder="Ex. CE, BSBE, CSE" name="department">
 		  </div>
 
 		  <label>Degree</label>
-		  <select class="form-control">
-			 <option>B.Tech</option>
-			 <option>B.Tech-M.Tech(Dual)</option>
-			 <option>M.Tech</option>
-			 <option>PhD</option>
-			 <option>MBA</option>
-			 <option>M.Des</option>
+		  <select class="form-control" name="degree">
+			 <option value="B.Tech">B.Tech</option>
+			 <option value="B.Tech-M.Tech(Dual)">B.Tech-M.Tech(Dual)</option>
+			 <option value="M.Tech">M.Tech</option>
+			 <option value="PhD">PhD</option>
+			 <option value="MBA">MBA</option>
+			 <option value="M.Des">M.Des</option>
 		  </select>
 		  <br>
 		  <div class="jumbotron">
