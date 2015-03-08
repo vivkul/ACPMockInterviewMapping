@@ -1,0 +1,31 @@
+Alumni: https://docs.google.com/forms/d/1VNTUbYP9vQDATRZdl6P34H8TPsiaDL_PiCWbM7o7keo/viewform
+Prefered slots: Timing can change, no of slots won't exceed 7. Timing and no. of slots will be fixed for like 1 week during which all the matching need to be done.
+Interview Type Preference: No. of preferences won't exceed 10 and will remain fixed for whole process.
+Department: It matters a lot for Departmental Technical and not otherwise. It matters a lot for PhD students.
+*Alumni can fill more than one slots meaning he is available for 2 students. If alumni fills the form again it means that he is available for even more students. You can change it.
+
+Student: https://docs.google.com/forms/d/1XaLy59EHcFBC-0nxUoB_hbreF6jm9k37ah-t0hCyjdM/viewform
+Tell him beforehand in the form that if he fills the form again, his latest filling will be taken into account.
+Roll No. is the key. Ask their iitk email ids so that once a student is alloted a slot, he can't avail any slot in future.
+(It will initially be used for placement related mock interviews. So, everybody should get chance.)
+
+Students will be automatically informed about the alumni only 1hr before the interview through mail to avoid interchanging.
+Alumni will be instantly informed about it for his own convenience.
+It may be the case that alumni wishes to conduct the interview through skype. So, he will be given the contact details of the student and student will be given the contact details of the alumni.
+
+Ratnesh only wants to set-up the form and no other interference. So, you can ask him enter the deadline as well in the app after which stable matching will instantly happen and alumni will be mailed and students will be mailed like 1hr before the schedule.
+
+Ratnesh wants to automatically transfer the alumni information to some safe location for future use. It will be good to keep student's information as well, so transfer that information as well. I need to transfer as the app will use the same database for future mapping as well.
+
+1. Core
+1.1 Research
+1.1.1 All depts.
+1.2 Job oriented(Technical Consulting)
+1.2.1 All depts.
+
+2. Non-Core
+2.1 Analytics
+2.2 Finance
+2.3 Management Consulting
+
+3. Miscellaneous (To be assigned manually eg for lawyer, Politicians)
