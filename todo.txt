@@ -86,3 +86,9 @@ function stableMatching {
            (m', w) remain engaged
     }
 }
+
+Tables:
+Alumni: Which maintains the list of alumni who are willing to help for present slots. If an alumni applies for more than 1 slot, there are two rows for each but will have same AAID (Alumni Added ID)
+AlumniAdded: All the alumni who have applied till now from the first time the interviews were taken.
+Students: Which maintains the list of students willing to sit for current mock-interview.
+StudentsAdded: All the students who have been "selected for interview" through this sevice.

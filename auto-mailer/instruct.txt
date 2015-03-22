@@ -1,0 +1,4 @@
+1.copy his config file here
+2. save his csv file in his/her data folder.
+3. php load.php
+4. php apping.php
